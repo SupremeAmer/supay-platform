@@ -1,7 +1,7 @@
 // lib/supabase/server.ts
 import { createServerClient } from '@supabase/ssr'
 import { cookies } from 'next/headers'
-import { config } from '@/lib/config'
+import { config } from '@/lib/supabase/config'
 
 // ✅ Export as createServerSupabaseClient (for backward compatibility)
 export function createServerSupabaseClient() {
